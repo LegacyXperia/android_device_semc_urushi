@@ -17,6 +17,7 @@ WIFI_EXT_MODULE_NAME := sdio
 
 TARGET_OTA_ASSERT_DEVICE := ST18i,ST18a,urushi
 
+BOARD_OVERLAY_FORMAT_YCrCb_420_SP := true
 BOARD_CAMERA_USE_GETBUFFERINFO := true
 
 -include device/semc/msm7x30-common/Android.mk
