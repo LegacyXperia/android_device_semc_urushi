@@ -84,7 +84,9 @@ adb pull /system/lib/libcameraextensionclient.so ../../../vendor/$VENDOR/$DEVICE
 adb pull /system/lib/libcameraextensionjni.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/libcameraextensionservice.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/libcameralight.so ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/usr/semc/camera/default_flash.dat ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/usr/semc/camera/APT00YP0.dat: ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/usr/semc/camera/APT00YP0_MT9V144.dat ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/usr/semc/camera/AS3676_00_flash.dat ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/usr/semc/camera/LGI08BN0.dat ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/usr/semc/camera/SOD08BN0.dat ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/usr/semc/camera/SOD08BN0_DW9714.dat ../../../vendor/$VENDOR/$DEVICE/proprietary
@@ -96,8 +98,8 @@ adb pull /system/usr/semc/camera/SOD08BN1_IMX105.dat ../../../vendor/$VENDOR/$DE
 
 
 ## FIRMWARE
-adb pull /system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/etc/firmware/fm_rx_init_1273.1.bts ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/etc/firmware/fm_rx_init_1273.2.bts ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/etc/firmware/fm_tx_init_1273.1.bts ../../../vendor/$VENDOR/$DEVICE/proprietary
@@ -143,9 +145,7 @@ adb pull /system/etc/vold.fstab ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/etc/sensors.conf ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/hw/sensors.default.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/bin/bq275xx_fwloader ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/bin/hdmid ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/bin/akmd8975 ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/bin/touchd ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/bin/chargemon ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/libmiscta.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 
@@ -153,10 +153,9 @@ adb pull /system/lib/libmiscta.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/hw/gps.msm7x30.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 #touch
-adb pull /system/etc/firmware/touch_anzu_sharp_type1.hex ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/etc/firmware/touch_anzu_sharp_type2.hex ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/etc/firmware/touch_anzu_sony_type1.hex ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/etc/firmware/touch_anzu_sony_type2.hex ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/etc/firmware/touch_module_id_0x01.img ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/etc/firmware/touch_module_id_0x02.img ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/etc/firmware/touch_module_id_0x11.img ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 ./setup-makefiles.sh
 

@@ -43,6 +43,7 @@ vendor/__VENDOR__/__DEVICE__/proprietary/qwerty.kcm.bin:system/usr/keychars/qwer
 vendor/__VENDOR__/__DEVICE__/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \\
 vendor/__VENDOR__/__DEVICE__/proprietary/atdaemon.kl:system/usr/keylayout/atdaemon.kl \\
 vendor/__VENDOR__/__DEVICE__/proprietary/AVRCP.kl:system/usr/keylayout/AVRCP.kl \\
+vendor/__VENDOR__/__DEVICE__/proprietary/clearpad.kl:system/usr/keylayout/clearpad.kl \\
 vendor/__VENDOR__/__DEVICE__/proprietary/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \\
 vendor/__VENDOR__/__DEVICE__/proprietary/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \\
 vendor/__VENDOR__/__DEVICE__/proprietary/qwerty.kl:system/usr/keylayout/qwerty.kl \\
@@ -105,7 +106,9 @@ vendor/__VENDOR__/__DEVICE__/proprietary/libcameraextensionservice.so:system/lib
 vendor/__VENDOR__/__DEVICE__/proprietary/libface.so:system/lib/libface.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libgemini.so:system/lib/libgemini.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libcameralight.so:system/lib/libcameralight.so \\
-vendor/__VENDOR__/__DEVICE__/proprietary/default_flash.dat:system/usr/semc/camera/default_flash.dat \\
+vendor/__VENDOR__/__DEVICE__/proprietary/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \\
+vendor/__VENDOR__/__DEVICE__/proprietary/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \\
+vendor/__VENDOR__/__DEVICE__/proprietary/AS3676_00_flash.dat:system/usr/semc/camera/AS3676_00_flash.dat \\
 vendor/__VENDOR__/__DEVICE__/proprietary/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \\
 vendor/__VENDOR__/__DEVICE__/proprietary/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \\
 vendor/__VENDOR__/__DEVICE__/proprietary/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \\
@@ -118,8 +121,8 @@ vendor/__VENDOR__/__DEVICE__/proprietary/SOD08BN1_IMX105.dat:system/usr/semc/cam
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \\
-vendor/__VENDOR__/__DEVICE__/proprietary/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs \\
-vendor/__VENDOR__/__DEVICE__/proprietary/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs \\
+vendor/__VENDOR__/__DEVICE__/proprietary/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs \\
+vendor/__VENDOR__/__DEVICE__/proprietary/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs \\
 vendor/__VENDOR__/__DEVICE__/proprietary/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \\
 vendor/__VENDOR__/__DEVICE__/proprietary/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \\
 vendor/__VENDOR__/__DEVICE__/proprietary/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \\
@@ -159,9 +162,7 @@ vendor/__VENDOR__/__DEVICE__/proprietary/vold.fstab:system/etc/vold.fstab \\
 vendor/__VENDOR__/__DEVICE__/proprietary/sensors.conf:system/etc/sensors.conf \\
 vendor/__VENDOR__/__DEVICE__/proprietary/sensors.default.so:system/lib/hw/sensors.semc.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/bq275xx_fwloader:system/bin/bq275xx_fwloader \\
-vendor/__VENDOR__/__DEVICE__/proprietary/hdmid:system/bin/hdmid \\
-vendor/__VENDOR__/__DEVICE__/proprietary/akmd8975:system/bin/akmd8975 \\
-vendor/__VENDOR__/__DEVICE__/proprietary/touchd:system/bin/touchd
+vendor/__VENDOR__/__DEVICE__/proprietary/akmd8975:system/bin/akmd8975
 
 #offline charging animation
 PRODUCT_COPY_FILES += \\
@@ -174,10 +175,9 @@ vendor/__VENDOR__/__DEVICE__/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.s
 
 #touch
 PRODUCT_COPY_FILES += \\
-vendor/__VENDOR__/__DEVICE__/proprietary/touch_anzu_sharp_type1.hex:system/etc/firmware/touch_anzu_sharp_type1.hex \\
-vendor/__VENDOR__/__DEVICE__/proprietary/touch_anzu_sharp_type2.hex:system/etc/firmware/touch_anzu_sharp_type2.hex \\
-vendor/__VENDOR__/__DEVICE__/proprietary/touch_anzu_sony_type1.hex:system/etc/firmware/touch_anzu_sony_type1.hex \\
-vendor/__VENDOR__/__DEVICE__/proprietary/touch_anzu_sony_type2.hex:system/etc/firmware/touch_anzu_sony_type2.hex 
+vendor/__VENDOR__/__DEVICE__/proprietary/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \\
+vendor/__VENDOR__/__DEVICE__/proprietary/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \\
+vendor/__VENDOR__/__DEVICE__/proprietary/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img 
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \\
@@ -187,6 +187,12 @@ vendor/__VENDOR__/__DEVICE__/proprietary/libq3dtools_adreno200.so:system/lib/egl
 vendor/__VENDOR__/__DEVICE__/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
+#ANT*
+PRODUCT_COPY_FILES += \\
+vendor/__VENDOR__/__DEVICE__/proprietary/AntHalService.apk:system/app/AntHalService.apk \\
+vendor/__VENDOR__/__DEVICE__/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \\
+vendor/__VENDOR__/__DEVICE__/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \\
+vendor/__VENDOR__/__DEVICE__/proprietary/libanthal.so:system/lib/libanthal.so
 
 EOF
 
