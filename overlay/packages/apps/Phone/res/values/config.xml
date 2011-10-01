@@ -38,4 +38,9 @@
     <!-- This device implements a noise suppression device for in call audio-->
     <bool name="has_in_call_noise_suppression">true</bool>
 
+    <!-- The current semc baseband will send an erroneous network locked event,
+         this option is an workaround for the dialog that pops up. It will
+         be removed once / if baseband issues are fixed. -->
+    <bool name="ignore_sim_network_locked_events">true</bool>
+
 </resources>
