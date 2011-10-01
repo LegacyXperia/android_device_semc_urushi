@@ -157,5 +157,11 @@ adb pull /system/etc/firmware/touch_module_id_0x01.img ../../../vendor/$VENDOR/$
 adb pull /system/etc/firmware/touch_module_id_0x02.img ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/etc/firmware/touch_module_id_0x11.img ../../../vendor/$VENDOR/$DEVICE/proprietary
 
+#ANT*
+adb pull /system/app/AntHalService.apk ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/etc/permissions/com.dsi.ant.antradio_library.xml ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/framework/com.dsi.ant.antradio_library.jar ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/lib/libanthal.so ../../../vendor/$VENDOR/$DEVICE/proprietary
+
 ./setup-makefiles.sh
 

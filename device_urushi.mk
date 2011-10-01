@@ -72,6 +72,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.gprsclass=10 \
     ro.telephony.default_network=0 \
     ro.telephony.call_ring.multiple=false \
+    ro.telephony.ril_class=semc \
     wifi.interface=tiwlan0 \
     wifi.supplicant_scan_interval=15 \
     ro.sf.lcd_density=240 \
