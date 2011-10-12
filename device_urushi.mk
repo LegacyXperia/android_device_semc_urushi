@@ -17,7 +17,7 @@ else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
--include device/semc/msm7x30-common/msm7x30.mk
+-include device/semc/mogami-common/mogami.mk
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
@@ -35,21 +35,10 @@ PRODUCT_COPY_FILES += \
 
 # Init files
 PRODUCT_COPY_FILES += \
-    device/semc/msm7x30-common/prebuilt/ueventd.mogami.rc:root/ueventd.mogami.rc \
-    device/semc/msm7x30-common/prebuilt/init.mogami.rc:root/init.semc.rc \
     device/semc/urushi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
     device/semc/urushi/prebuilt/bootrec:root/sbin/bootrec \
     device/semc/urushi/recovery.fstab:root/recovery.fstab
-
-#WIFI modules and configs
-PRODUCT_COPY_FILES += \
-    device/semc/msm7x30-common/prebuilt/tiap_loader.sh:system/bin/tiap_loader.sh \
-    device/semc/msm7x30-common/prebuilt/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    device/semc/msm7x30-common/prebuilt/hostapd.conf:system/etc/wifi/softap/hostapd.conf \
-    device/semc/msm7x30-common/modules/sdio.ko:root/modules/sdio.ko \
-    device/semc/msm7x30-common/modules/tiap_drv.ko:root/modules/tiap_drv.ko \
-    device/semc/msm7x30-common/modules/tiwlan_drv.ko:root/modules/tiwlan_drv.ko
 
 # semc msm7x30 uses high-density artwork where available
 PRODUCT_LOCALES += hdpi
