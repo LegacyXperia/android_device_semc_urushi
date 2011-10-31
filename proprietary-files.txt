@@ -104,11 +104,7 @@ bin/nvimport
 bin/hciattach
 etc/init.qcom.bt.sh
 etc/wifi/tiwlan.ini
-etc/wifi/wpa_supplicant.conf
-etc/wifi/tiwlan_firmware.bin
-etc/wifi/softap/hostapd.conf
 etc/wifi/softap/tiwlan_ap.ini
-etc/wifi/softap/softap_firmware.bin
 
 ## Adreno 200 files
 lib/libgsl.so
