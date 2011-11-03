@@ -43,6 +43,7 @@ lib/libqdp.so
 bin/netmgrd
 
 ## Camera proprietaries
+etc/permissions/android.hardware.camera.front.xml
 lib/liboemcamera.so
 lib/libmmjpeg.so
 lib/libmmipl.so 
