@@ -43,39 +43,39 @@ lib/libqdp.so
 bin/netmgrd
 
 ## Camera proprietaries
-etc/permissions/android.hardware.camera.front.xml
-lib/liboemcamera.so
-lib/libmmjpeg.so
-lib/libmmipl.so 
-lib/libcamera.so
-lib/libcamera_clientsemc.so
-lib/libcald_client.so
-lib/libcald_debugger.so
-lib/libcald_hal.so
-lib/libcald_imageutil.so
-lib/libcald_pal.so
-lib/libcald_server.so
-lib/libface.so
-lib/libgemini.so
-lib/libcameraextensionclient.so
-lib/libcameraextensionjni.so
-lib/libcameraextensionservice.so
-lib/libcameralight.so
-usr/semc/camera/APT00YP0.dat
-usr/semc/camera/APT00YP0_MT9V144.dat
-usr/semc/camera/AS3676_00_flash.dat
-usr/semc/camera/LGI08BN0.dat
-usr/semc/camera/LGI08BN0_DW9714.dat
-usr/semc/camera/LGI08BN0_IMX105.dat
-usr/semc/camera/LGI08BN1.dat
-usr/semc/camera/LGI08BN1_DW9714.dat
-usr/semc/camera/LGI08BN1_IMX105.dat
-usr/semc/camera/SOD08BN0.dat
-usr/semc/camera/SOD08BN0_DW9714.dat
-usr/semc/camera/SOD08BN0_IMX073.dat
-usr/semc/camera/SOD08BN1.dat
-usr/semc/camera/SOD08BN1_DW9714.dat
-usr/semc/camera/SOD08BN1_IMX105.dat
+#etc/permissions/android.hardware.camera.front.xml
+#lib/liboemcamera.so
+#lib/libmmjpeg.so
+#lib/libmmipl.so 
+#lib/libcamera.so
+#lib/libcamera_clientsemc.so
+#lib/libcald_client.so
+#lib/libcald_debugger.so
+#lib/libcald_hal.so
+#lib/libcald_imageutil.so
+#lib/libcald_pal.so
+#lib/libcald_server.so
+#lib/libface.so
+#lib/libgemini.so
+#lib/libcameraextensionclient.so
+#lib/libcameraextensionjni.so
+#lib/libcameraextensionservice.so
+#lib/libcameralight.so
+#usr/semc/camera/APT00YP0.dat
+#usr/semc/camera/APT00YP0_MT9V144.dat
+#usr/semc/camera/AS3676_00_flash.dat
+#usr/semc/camera/LGI08BN0.dat
+#usr/semc/camera/LGI08BN0_DW9714.dat
+#usr/semc/camera/LGI08BN0_IMX105.dat
+#usr/semc/camera/LGI08BN1.dat
+#usr/semc/camera/LGI08BN1_DW9714.dat
+#usr/semc/camera/LGI08BN1_IMX105.dat
+#usr/semc/camera/SOD08BN0.dat
+#usr/semc/camera/SOD08BN0_DW9714.dat
+#usr/semc/camera/SOD08BN0_IMX073.dat
+#usr/semc/camera/SOD08BN1.dat
+#usr/semc/camera/SOD08BN1_DW9714.dat
+#usr/semc/camera/SOD08BN1_IMX105.dat
 
 
 
@@ -111,12 +111,16 @@ etc/wifi/softap/tiwlan_firmware_ap.bin
 
 ## Adreno 200 files
 lib/libgsl.so
+lib/hw/gralloc.semc.so
+lib/hw/overlay.semc.so
 lib/egl/libGLESv1_CM_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 lib/egl/libEGL_adreno200.so
 lib/egl/libGLESv2_adreno200.so
 
 ## Other libraries and proprietary binaries
+lib/liba2dp.so
+lib/libaudio.so
 lib/libaudioalsa.so
 etc/als_curve.conf
 etc/vold.fstab
@@ -133,7 +137,7 @@ etc/firmware/touch_module_id_0x02.img
 etc/firmware/touch_module_id_0x11.img
 
 #ANT*
-app/AntHalService.apk
-etc/permissions/com.dsi.ant.antradio_library.xml
-framework/com.dsi.ant.antradio_library.jar
-lib/libanthal.so
+#app/AntHalService.apk
+#etc/permissions/com.dsi.ant.antradio_library.xml
+#framework/com.dsi.ant.antradio_library.jar
+#lib/libanthal.so

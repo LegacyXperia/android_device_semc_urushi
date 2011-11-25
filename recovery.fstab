@@ -5,4 +5,4 @@
 /system     yaffs2	    system
 /sdcard     vfat        /dev/block/mmcblk0p1
 /sd-ext     auto        /dev/block/mmcblk0p2
-
+/boot		mtd 		boot

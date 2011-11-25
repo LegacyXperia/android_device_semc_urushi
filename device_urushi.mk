@@ -30,14 +30,13 @@ DISABLE_DEXPREOPT := false
 DEVICE_PACKAGE_OVERLAYS += device/semc/urushi/overlay
 
 # These are the hardware-specific configuration files
-PRODUCT_COPY_FILES += \
-	device/semc/urushi/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
+#PRODUCT_COPY_FILES += \
+#	device/semc/urushi/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
 
 # Init files
 PRODUCT_COPY_FILES += \
     device/semc/urushi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
-    device/semc/urushi/prebuilt/bootrec:root/sbin/bootrec \
     device/semc/urushi/recovery.fstab:root/recovery.fstab
 
 # semc msm7x30 uses high-density artwork where available
@@ -64,7 +63,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril_class=semc \
     wifi.interface=tiwlan0 \
     wifi.supplicant_scan_interval=15 \
-    ro.sf.lcd_density=240 \
+    ro.sf.lcd_density=200 \
     keyguard.no_require_sim=true \
     ro.com.google.locationfeatures=1 \
     dalvik.vm.dexopt-flags=m=y \
