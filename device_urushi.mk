@@ -36,9 +36,11 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/urushi/overlay
 # Init files
 PRODUCT_COPY_FILES += \
     device/semc/urushi/prebuilt/bootrec:root/sbin/bootrec \
-    device/semc/urushi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
+    device/semc/urushi/prebuilt/hw_config.sh:root/hw_config.sh \
+    device/semc/urushi/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
     device/semc/urushi/recovery.fstab:root/recovery.fstab
+
 
 # semc msm7x30 uses high-density artwork where available
 PRODUCT_LOCALES += hdpi
@@ -81,4 +83,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.use_data_netmgrd=true \
     wifi.hotspot.ti=1 \
     hwui.render_dirty_regions=false \
-    BUILD_UTC_DATE=0
+    BUILD_UTC_DATE=0 \
+    persist.sys.usb.config=adb,mass_storage
