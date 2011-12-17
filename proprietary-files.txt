@@ -44,9 +44,10 @@ bin/netmgrd
 
 ## Camera proprietaries
 etc/permissions/android.hardware.camera.front.xml
+#lib/hw/camera.semc.so
 lib/liboemcamera.so
 lib/libmmjpeg.so
-lib/libmmipl.so 
+lib/libmmipl.so
 lib/libcamera.so
 lib/libcamera_clientsemc.so
 lib/libcald_client.so
@@ -102,7 +103,7 @@ etc/firmware/yamato_pm4.fw
 
 ## WIFI & BT TI1271
 #bin/nvimport
-bin/hciattach
+#bin/hciattach
 etc/init.qcom.bt.sh
 #etc/wifi/tiwlan.ini
 #etc/wifi/tiwlan_firmware.bin

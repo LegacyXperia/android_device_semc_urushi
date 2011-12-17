@@ -58,4 +58,4 @@ PRODUCT_COPY_FILES += \
 
 #LCD DENSITY
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=200 \
+    ro.sf.lcd_density=240
