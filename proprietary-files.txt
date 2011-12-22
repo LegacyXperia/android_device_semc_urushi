@@ -48,7 +48,7 @@ etc/permissions/android.hardware.camera.front.xml
 lib/liboemcamera.so
 lib/libmmjpeg.so
 lib/libmmipl.so
-lib/libcamera.so
+#lib/libcamera.so
 lib/libcamera_clientsemc.so
 lib/libcald_client.so
 lib/libcald_debugger.so
@@ -82,14 +82,14 @@ usr/semc/camera/SOD08BN1_IMX105.dat
 
 ## FIRMWARE
 etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
-#etc/firmware/fm_rx_init_1273.1.bts
-#etc/firmware/fm_rx_init_1273.2.bts
-#etc/firmware/fm_tx_init_1273.1.bts
-#etc/firmware/fm_tx_init_1273.2.bts
-#etc/firmware/fmc_init_1273.1.bts
-#etc/firmware/fmc_init_1273.2.bts
-#etc/firmware/TIInit_7.5.20.bts
-#etc/firmware/TIInit_7.6.15.bts
+etc/firmware/fm_rx_init_1273.1.bts
+etc/firmware/fm_rx_init_1273.2.bts
+etc/firmware/fm_tx_init_1273.1.bts
+etc/firmware/fm_tx_init_1273.2.bts
+etc/firmware/fmc_init_1273.1.bts
+etc/firmware/fmc_init_1273.2.bts
+etc/firmware/TIInit_7.5.20.bts
+etc/firmware/TIInit_7.6.15.bts
 etc/firmware/vidc_720p_command_control.fw
 etc/firmware/vidc_720p_h263_dec_mc.fw
 etc/firmware/vidc_720p_h264_dec_mc.fw
