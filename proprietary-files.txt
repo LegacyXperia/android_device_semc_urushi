@@ -1,4 +1,5 @@
 # Prebuilt kl keymaps
+usr/idc/clearpad.idc
 usr/keychars/qwerty.kcm.bin
 usr/keylayout/atdaemon.kl
 usr/keylayout/clearpad.kl
@@ -12,7 +13,7 @@ usr/keylayout/us104-keyboard.kl
 usr/keylayout/usb_mouse.kl
 
 ## RIL related stuff 
-lib/libril.so
+#lib/libril.so
 bin/port-bridge
 bin/qmuxd
 lib/libauth.so
@@ -31,7 +32,7 @@ lib/libpbmlib.so
 lib/libqmi.so
 lib/libqueue.so
 lib/libuim.so
-lib/libreference-ril.so
+#lib/libreference-ril.so
 lib/libril-qc-1.so
 lib/libwms.so
 lib/libwmsts.so
@@ -78,16 +79,8 @@ usr/semc/camera/SOD08BN1.dat
 usr/semc/camera/SOD08BN1_DW9714.dat
 usr/semc/camera/SOD08BN1_IMX105.dat
 
-
-
 ## FIRMWARE
 etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
-etc/firmware/fm_rx_init_1273.1.bts
-etc/firmware/fm_rx_init_1273.2.bts
-etc/firmware/fm_tx_init_1273.1.bts
-etc/firmware/fm_tx_init_1273.2.bts
-etc/firmware/fmc_init_1273.1.bts
-etc/firmware/fmc_init_1273.2.bts
 etc/firmware/TIInit_7.5.20.bts
 etc/firmware/TIInit_7.6.15.bts
 etc/firmware/vidc_720p_command_control.fw
@@ -100,28 +93,21 @@ etc/firmware/vidc_720p_vc1_dec_mc.fw
 etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 
-
 ## WIFI & BT TI1271
-#bin/nvimport
-#bin/hciattach
 etc/init.qcom.bt.sh
-#etc/wifi/tiwlan.ini
-#etc/wifi/tiwlan_firmware.bin
-#etc/wifi/softap/tiwlan_ap.ini
-#etc/wifi/softap/tiwlan_firmware_ap.bin
+#etc/wifi/hostapd.conf
 
 ## Adreno 200 files
+lib/libC2D2.so
+lib/libOpenVG.so
 lib/libgsl.so
-#lib/hw/gralloc.semc.so
-#lib/hw/overlay.semc.so
+lib/libsc-a2xx.so
 lib/egl/libGLESv1_CM_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 lib/egl/libEGL_adreno200.so
 lib/egl/libGLESv2_adreno200.so
 
 ## Other libraries and proprietary binaries
-#lib/liba2dp.so
-#lib/libaudio.so
 lib/libaudioalsa.so
 etc/als_curve.conf
 etc/vold.fstab
@@ -136,9 +122,3 @@ lib/libmiscta.so
 etc/firmware/touch_module_id_0x01.img
 etc/firmware/touch_module_id_0x02.img
 etc/firmware/touch_module_id_0x11.img
-
-#ANT*
-#app/AntHalService.apk
-#etc/permissions/com.dsi.ant.antradio_library.xml
-#framework/com.dsi.ant.antradio_library.jar
-#lib/libanthal.so

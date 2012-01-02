@@ -36,7 +36,7 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/urushi/overlay
 # Init files
 PRODUCT_COPY_FILES += \
     device/semc/urushi/prebuilt/bootrec:root/sbin/bootrec \
-    device/semc/urushi/prebuilt/hw_config.sh:root/hw_config.sh \
+    device/semc/urushi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/urushi/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
     device/semc/urushi/recovery.fstab:root/recovery.fstab
@@ -53,8 +53,8 @@ PRODUCT_COPY_FILES += \
     device/semc/msm7x30-common/prebuilt/animations/charging_animation_04_H.png:system/semc/chargemon/data/charging_animation_04.png \
     device/semc/msm7x30-common/prebuilt/animations/charging_animation_05_H.png:system/semc/chargemon/data/charging_animation_05.png \
     device/semc/msm7x30-common/prebuilt/animations/charging_animation_06_H.png:system/semc/chargemon/data/charging_animation_06.png \
-    device/semc/msm7x30-common/prebuilt/animations/charging_animation_07_H.png:system/semc/chargemon/data/charging_animation_07.png \
-    device/semc/msm7x30-common/prebuilt/animations/charging_animation_blank_H.png:system/semc/chargemon/data/charging_animation_blank.png
+    device/semc/msm7x30-common/prebuilt/animations/charging_animation_07_H.png:system/semc/chargemon/data/charging_animation_07.png
+#    device/semc/msm7x30-common/prebuilt/animations/charging_animation_blank_H.png:system/semc/chargemon/data/charging_animation_blank.png
 
 #LCD DENSITY
 PRODUCT_PROPERTY_OVERRIDES += \
