@@ -32,7 +32,6 @@ lib/libpbmlib.so
 lib/libqmi.so
 lib/libqueue.so
 lib/libuim.so
-#lib/libreference-ril.so
 lib/libril-qc-1.so
 lib/libwms.so
 lib/libwmsts.so
@@ -49,7 +48,6 @@ etc/permissions/android.hardware.camera.front.xml
 lib/liboemcamera.so
 lib/libmmjpeg.so
 lib/libmmipl.so
-#lib/libcamera.so
 lib/libcamera_clientsemc.so
 lib/libcald_client.so
 lib/libcald_debugger.so
@@ -102,6 +100,7 @@ lib/libC2D2.so
 lib/libOpenVG.so
 lib/libgsl.so
 lib/libsc-a2xx.so
+lib/egl/eglsubAndroid.so
 lib/egl/libGLESv1_CM_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 lib/egl/libEGL_adreno200.so
