@@ -13,7 +13,7 @@ usr/keylayout/us104-keyboard.kl
 usr/keylayout/usb_mouse.kl
 
 ## RIL related stuff 
-#lib/libril.so
+lib/libril.so
 bin/port-bridge
 bin/qmuxd
 lib/libauth.so
