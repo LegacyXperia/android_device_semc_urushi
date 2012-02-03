@@ -11,6 +11,16 @@ PRODUCT_NAME := urushi
 PRODUCT_DEVICE := urushi
 PRODUCT_MODEL := urushi
 
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+LOCAL_KERNEL := $(LOCAL_PATH)/kernel
+else
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
+
 -include device/semc/mogami-common/mogami.mk
 
 # These is the hardware-specific overlay, which points to the location
