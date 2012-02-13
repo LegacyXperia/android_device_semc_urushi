@@ -14,13 +14,3 @@
 
 LOCAL_PATH := device/semc/urushi/
 
-#
-# Boot files
-#
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
-endif
-
-
-
-
