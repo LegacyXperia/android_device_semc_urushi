@@ -28,6 +28,7 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/urushi/overlay
 
 # Init files
 PRODUCT_COPY_FILES += \
+    device/semc/urushi/prebuilt/init.semc.usb.rc:root/init.semc.usb.rc \
     device/semc/urushi/prebuilt/bootrec:root/sbin/bootrec \
     device/semc/urushi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/urushi/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
