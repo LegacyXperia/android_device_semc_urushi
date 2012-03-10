@@ -35,8 +35,6 @@ PRODUCT_COPY_FILES += \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
     device/semc/urushi/recovery.fstab:root/recovery.fstab
 
-#    device/semc/urushi/prebuilt/filler:root/filler \
-
 # semc msm7x30 uses high-density artwork where available
 PRODUCT_LOCALES += hdpi
 
