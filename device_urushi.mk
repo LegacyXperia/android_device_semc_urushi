@@ -23,8 +23,8 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += device/semc/urushi/overlay
 
 # These are the hardware-specific configuration files
-#PRODUCT_COPY_FILES += \
-#	device/semc/urushi/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
+PRODUCT_COPY_FILES += \
+	device/semc/urushi/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
 
 # Init files
 PRODUCT_COPY_FILES += \
