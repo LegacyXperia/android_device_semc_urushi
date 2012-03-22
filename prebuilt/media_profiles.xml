@@ -117,8 +117,6 @@
         <ImageEncoding quality="70" />
         <ImageDecoding memCap="20000000" />
 
-        <Camera previewFrameRate="0" />
-
     </CamcorderProfiles>
 
     <CamcorderProfiles cameraId="1">
@@ -156,8 +154,6 @@
         <ImageEncoding quality="80" />
         <ImageEncoding quality="70" />
         <ImageDecoding memCap="20000000" />
-
-        <Camera previewFrameRate="0" />
 
     </CamcorderProfiles>
 
