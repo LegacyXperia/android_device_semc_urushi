@@ -88,7 +88,9 @@ etc/firmware/yamato_pm4.fw
 
 ## WIFI & BT TI1271
 etc/init.qcom.bt.sh
-#etc/wifi/hostapd.conf
+etc/firmware/wl1271-fw-multirole-roc.bin
+etc/firmware/wl1271-nvs.bin
+etc/wifi/hostapd.conf
 
 ## Adreno 200 files
 lib/libC2D2.so
