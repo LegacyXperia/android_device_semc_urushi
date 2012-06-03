@@ -88,6 +88,7 @@ etc/firmware/yamato_pm4.fw
 
 ## WIFI & BT TI1271
 etc/init.qcom.bt.sh
+etc/tiwlan.ini
 etc/firmware/wl1271-fw-multirole-roc.bin
 etc/firmware/wl1271-nvs.bin
 etc/wifi/hostapd.conf
