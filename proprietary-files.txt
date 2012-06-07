@@ -118,3 +118,13 @@ lib/libmiscta.so
 etc/firmware/touch_module_id_0x01.img
 etc/firmware/touch_module_id_0x02.img
 etc/firmware/touch_module_id_0x11.img
+
+#ANT+
+lib/libanthal.so
+etc/permissions/com.dsi.ant.antradio_library.xml
+etc/permissions/com.sonyericsson.suquashi.xml
+app/antstatenotifer.apk
+app/AntHalService.apk
+app/antradioservice.apk
+framework/com.dsi.ant.antradio_library.jar
+framework/com.sonyericsson.suquashi.jar
