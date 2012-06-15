@@ -6,5 +6,10 @@
   {
     "repository": "android_device_semc_mogami-common",
     "target_path": "device/semc/mogami-common"
+  },
+  {
+   "repository": "semc-kernel-msm7x30",
+   "target_path": "kernel/semc/msm7x30",
+   "branch": "4.1.B.0.431"
   }
 ]
