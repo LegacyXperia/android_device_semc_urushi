@@ -113,6 +113,7 @@ bin/bq275xx_fwloader
 bin/akmd8975
 bin/chargemon
 lib/libmiscta.so
+lib/libv8.so
 
 #touch
 etc/firmware/touch_module_id_0x01.img
