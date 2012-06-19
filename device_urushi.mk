@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
 
 #device specific features
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/android.hardware.camera.front.xml
+    frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
 
 # semc msm7x30 uses high-density artwork where available
 PRODUCT_LOCALES += hdpi
