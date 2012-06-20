@@ -73,6 +73,12 @@ usr/semc/camera/SOD08BN1_IMX105.dat
 
 ## FIRMWARE
 etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
+etc/firmware/fm_rx_init_1273.1.bts
+etc/firmware/fm_rx_init_1273.2.bts
+etc/firmware/fm_tx_init_1273.1.bts
+etc/firmware/fm_tx_init_1273.2.bts
+etc/firmware/fmc_init_1273.1.bts
+etc/firmware/fmc_init_1273.2.bts
 etc/firmware/TIInit_7.5.20.bts
 etc/firmware/TIInit_7.6.15.bts
 etc/firmware/vidc_720p_command_control.fw
@@ -86,10 +92,11 @@ etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 
 ## WIFI & BT TI1271
+bin/nvimport
+bin/calibrator
 etc/init.qcom.bt.sh
 etc/tiwlan.ini
 etc/firmware/wl1271-fw-multirole-roc.bin
-etc/firmware/wl1271-nvs.bin
 etc/wifi/hostapd.conf
 
 ## Adreno 200 files
