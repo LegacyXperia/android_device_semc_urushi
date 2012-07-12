@@ -10,6 +10,6 @@
   {
    "repository": "semc-kernel-msm7x30",
    "target_path": "kernel/semc/msm7x30",
-   "branch": "4.1.B.0.431"
+   "branch": "jellybean"
   }
 ]
