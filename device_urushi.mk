@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     device/semc/urushi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/urushi/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
-    device/semc/urushi/recovery.fstab:root/recovery.fstab
+    device/semc/urushi/recovery.fstab:root/etc/recovery.fstab
 
 #device specific features
 PRODUCT_COPY_FILES += \
