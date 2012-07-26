@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo urushi-eng
+add_lunch_combo cm_urushi-eng

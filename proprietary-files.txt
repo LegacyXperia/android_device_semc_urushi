@@ -114,7 +114,6 @@ lib/egl/libGLESv2_adreno200.so
 ## Other libraries and proprietary binaries
 lib/libaudioalsa.so
 etc/als_curve.conf
-etc/vold.fstab
 etc/sensors.conf
 bin/bq275xx_fwloader
 bin/akmd8975

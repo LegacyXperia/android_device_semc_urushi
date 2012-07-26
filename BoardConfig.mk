@@ -3,7 +3,7 @@
 
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
 TARGET_KERNEL_CONFIG := cyanogen_urushi_defconfig
-TARGET_PREBUILT_KERNEL := device/semc/urushi/prebuilt/kernel
+#TARGET_PREBUILT_KERNEL := device/semc/urushi/prebuilt/kernel
 
 SENSORS_COMPASS_AK897X := true
 SENSORS_ACCEL_BMA150_INPUT := true
