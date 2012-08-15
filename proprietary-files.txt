@@ -98,7 +98,6 @@ lib/libnl.so
 etc/init.qcom.bt.sh
 etc/tiwlan.ini
 etc/firmware/wl1271-fw-multirole-roc.bin
-etc/wifi/hostapd.conf
 
 ## Adreno 200 files
 lib/libC2D2.so
