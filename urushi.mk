@@ -28,6 +28,19 @@ PRODUCT_COPY_FILES += \
     device/semc/urushi/prebuilt/bootrec-device:root/sbin/bootrec-device \
     device/semc/urushi/recovery.fstab:root/recovery.fstab
 
+# Device specific configs
+PRODUCT_COPY_FILES += \
+    device/semc/urushi/config/clearpad.idc:system/usr/idc/clearpad.idc \
+    device/semc/urushi/config/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
+    device/semc/urushi/config/clearpad.kl:system/usr/keylayout/clearpad.kl \
+    device/semc/urushi/config/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
+    device/semc/urushi/config/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
+    device/semc/urushi/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+    device/semc/urushi/config/als_curve.conf:system/etc/als_curve.conf \
+    device/semc/urushi/config/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    device/semc/urushi/config/sensors.conf:system/etc/sensors.conf \
+    device/semc/urushi/config/tiwlan.ini:system/etc/tiwlan.ini
+
 $(call inherit-product, device/semc/msm7x30-common/prebuilt/resources-hdpi.mk)
 
 #LCD DENSITY
