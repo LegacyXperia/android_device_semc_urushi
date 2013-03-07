@@ -14,3 +14,7 @@ SENSORS_PROXIMITY_APDS9700 := true
 SENSORS_PRESSURE_BMP180 := false
 
 TARGET_OTA_ASSERT_DEVICE := ST18i,ST18a,urushi
+
+#Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/semc/urushi/bluetooth/vnd_urushi.txt
