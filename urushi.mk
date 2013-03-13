@@ -25,10 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/semc/urushi/recovery/bootrec-device:recovery/bootrec-device
 
-# Bluetooth config
-PRODUCT_COPY_FILES += \
-    device/semc/urushi/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
-
 # Device specific configs
 PRODUCT_COPY_FILES += \
     device/semc/urushi/config/clearpad.idc:system/usr/idc/clearpad.idc \
