@@ -9,7 +9,7 @@
   },
   {
     "repository": "android_hardware_sony_DASH",
-    "target_path": "hardware/somc/dash"
+    "target_path": "hardware/sony/DASH"
   },
   {
     "repository": "android_hardware_ti_fmradio",
@@ -17,6 +17,7 @@
   },
   {
     "repository": "semc-kernel-msm7x30",
-    "target_path": "kernel/semc/msm7x30"
+    "target_path": "kernel/semc/msm7x30",
+    "branch": "cm-10.1"
   }
 ]
