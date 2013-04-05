@@ -17,7 +17,6 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 # Init files
 PRODUCT_COPY_FILES += \
     device/semc/urushi/prebuilt/init.semc.usb.rc:root/init.semc.usb.rc \
-    device/semc/urushi/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
     device/semc/urushi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle
 
