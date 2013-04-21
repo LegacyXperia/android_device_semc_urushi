@@ -62,48 +62,12 @@ usr/semc/camera/SOD08BN1.dat
 usr/semc/camera/SOD08BN1_DW9714.dat
 usr/semc/camera/SOD08BN1_IMX105.dat
 
-# Firmware
+# Battery
+bin/bq275xx_fwloader
 etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
-etc/firmware/fm_rx_init_1273.1.bts
-etc/firmware/fm_rx_init_1273.2.bts
-etc/firmware/fm_tx_init_1273.1.bts
-etc/firmware/fm_tx_init_1273.2.bts
-etc/firmware/fmc_init_1273.1.bts
-etc/firmware/fmc_init_1273.2.bts
-etc/firmware/TIInit_7.5.20.bts
-etc/firmware/TIInit_7.6.15.bts
-etc/firmware/vidc_720p_command_control.fw
-etc/firmware/vidc_720p_h263_dec_mc.fw
-etc/firmware/vidc_720p_h264_dec_mc.fw
-etc/firmware/vidc_720p_h264_enc_mc.fw
-etc/firmware/vidc_720p_mp4_dec_mc.fw
-etc/firmware/vidc_720p_mp4_enc_mc.fw
-etc/firmware/vidc_720p_vc1_dec_mc.fw
-etc/firmware/yamato_pfp.fw
-etc/firmware/yamato_pm4.fw
-
-# WiFi & Bluetooth TI wl1271
-bin/nvimport
-bin/calibrator
-lib/libnl.so
-etc/firmware/wl1271-fw-multirole-roc.bin
-
-# Adreno 200 files
-lib/libC2D2.so
-lib/libOpenVG.so
-lib/libgsl.so
-lib/libsc-a2xx.so
-lib/libc2d2_z180.so
-lib/egl/eglsubAndroid.so
-lib/egl/libGLESv1_CM_adreno200.so
-lib/egl/libq3dtools_adreno200.so
-lib/egl/libEGL_adreno200.so
-lib/egl/libGLESv2_adreno200.so
-lib/egl/libGLESv2S3D_adreno200.so
 
 # Other libraries and proprietary binaries
 bin/akmd8975
-bin/bq275xx_fwloader
 bin/chargemon
 lib/libaudioalsa.so
 lib/libmiscta.so
@@ -112,13 +76,3 @@ lib/libmiscta.so
 etc/firmware/touch_module_id_0x01.img
 etc/firmware/touch_module_id_0x02.img
 etc/firmware/touch_module_id_0x11.img
-
-# ANT+
-app/antstatenotifer.apk
-app/AntHalService.apk
-app/antradioservice.apk
-etc/permissions/com.dsi.ant.antradio_library.xml
-etc/permissions/com.sonyericsson.suquashi.xml
-framework/com.dsi.ant.antradio_library.jar
-framework/com.sonyericsson.suquashi.jar
-lib/libanthal.so
