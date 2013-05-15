@@ -19,6 +19,6 @@
 #define _BDROID_BUILDCFG_H
 
 #define BTM_DEF_LOCAL_NAME   "Xperia Ray"
-#define BTHC_USERIAL_READ_MEM_SIZE=1034
+#define BTHC_USERIAL_READ_MEM_SIZE (1034)
 
 #endif
