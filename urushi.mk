@@ -5,8 +5,6 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/urushi/overlay
 
 $(call inherit-product, device/semc/mogami-common/mogami.mk)
 
-$(call inherit-product, device/common/gps/gps_eu_supl.mk)
-
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
