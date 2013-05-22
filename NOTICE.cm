@@ -2,7 +2,9 @@
    The device setup and all necessary integration with Android for this
    software to run on this Sony Ericsson device are:
 
-   Copyright (c) 2011, The CyanogenMod Project
+   Copyright (c) 2011-2013, The CyanogenMod Project
+   Copyright (c) 2013, LegacyXperia Project
+   Copyright (c) 2013, Michael Bestas <mikeioannina@gmail.com>
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
