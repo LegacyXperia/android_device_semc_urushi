@@ -35,5 +35,11 @@ echo $val_freq > $dev/freq      # Burst frequency. Valid range is 0 - 3.
 echo $val_threshold > $dev/threshold # sensor threshold. Valid range is 0 - 15 (0.12V - 0.87V)
 echo $val_filter > $dev/filter  # RFilter. Valid range is 0 - 3.
 
+# LMU AS3676 Configuration
+dev=/sys/devices/i2c-0/0-0040/leds/
+echo 2400 > $dev/red/max_current_uA
+echo 4200 > $dev/green/max_current_uA
+echo 3000 > $dev/blue/max_current_uA
+
 # TI BQ275xx firmware loader
 bq275xx_fwloader
