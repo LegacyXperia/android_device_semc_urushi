@@ -15,6 +15,13 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/urushi/BoardConfigVendor.mk
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/bluedroid
+
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
+
 # Kernel
 TARGET_KERNEL_CONFIG := nAa_urushi_defconfig
 
@@ -22,10 +29,8 @@ TARGET_KERNEL_CONFIG := nAa_urushi_defconfig
 SOMC_CFG_SENSORS_ACCEL_BMA150_INPUT := yes
 SOMC_CFG_SENSORS_PROXIMITY_APDS9700 := yes
 
+# Assert
 TARGET_OTA_ASSERT_DEVICE := ST18i,ST18a,urushi
 
 # Torch
 COMMON_GLOBAL_CFLAGS += -DUSES_AS3676_TORCH
-
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/bluedroid
