@@ -18,10 +18,6 @@
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/bluedroid
 
-# Boot Animation
-TARGET_SCREEN_HEIGHT := 854
-TARGET_SCREEN_WIDTH := 480
-
 # Kernel
 TARGET_KERNEL_CONFIG := nAa_urushi_defconfig
 
