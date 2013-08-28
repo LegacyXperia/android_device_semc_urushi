@@ -4,7 +4,3 @@ on init
 
     write /sys/class/android_usb/android0/idVendor 0fce
     write /sys/class/android_usb/android0/idProduct 6161
-    write /sys/class/android_usb/android0/functions mass_storage,adb
-
-on post-fs
-    mount vfat /dev/block/mmcblk0p1 /sdcard
