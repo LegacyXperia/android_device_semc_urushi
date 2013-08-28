@@ -1,0 +1,6 @@
+on boot
+    # AS3676/cameralight
+    chown system system /sys/class/leds/torch-rgb1/brightness
+    chmod 666 /sys/class/leds/torch-rgb1/brightness
+    chown system system /sys/class/leds/torch-rgb2/brightness
+    chmod 666 /sys/class/leds/torch-rgb2/brightness
