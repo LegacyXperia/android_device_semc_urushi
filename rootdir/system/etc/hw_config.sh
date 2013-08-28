@@ -13,10 +13,10 @@ echo 500 > $dev/btn_trig_level  # default = 500
 # Proximity sensor configuration
 dev=/sys/bus/i2c/devices/0-0054/
 val_cycle=0
-val_nburst=15
+val_nburst=26
 val_freq=0
-val_threshold=1
-val_filter=1
+val_threshold=2
+val_filter=0
 
 nv_param_loader 60240 prox_cal
 val_calibrated=$?
