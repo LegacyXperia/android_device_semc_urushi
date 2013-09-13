@@ -73,6 +73,7 @@ lib/libaudioalsa.so
 lib/libmiscta.so
 
 # Touchscreen firmware
+bin/clearpad_fwloader
 etc/firmware/touch_module_id_0x01.img
 etc/firmware/touch_module_id_0x02.img
 etc/firmware/touch_module_id_0x11.img
