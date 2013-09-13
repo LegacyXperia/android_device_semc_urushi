@@ -1,3 +1,7 @@
+on early-boot
+    # Start touch firmware loader
+    exec /system/bin/clearpad_fwloader
+
 on boot
     # AS3676/cameralight
     chown system system /sys/class/leds/torch-rgb1/brightness
