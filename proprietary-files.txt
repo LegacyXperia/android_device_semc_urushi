@@ -62,10 +62,6 @@ usr/semc/camera/SOD08BN1.dat
 usr/semc/camera/SOD08BN1_DW9714.dat
 usr/semc/camera/SOD08BN1_IMX105.dat
 
-# Battery
-bin/bq275xx_fwloader
-etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
-
 # Other libraries and proprietary binaries
 bin/akmd8975
 bin/chargemon
