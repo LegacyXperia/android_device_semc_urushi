@@ -29,4 +29,4 @@ SOMC_CFG_SENSORS_PROXIMITY_APDS9700 := yes
 TARGET_OTA_ASSERT_DEVICE := ST18i,ST18a,urushi
 
 # CM Hardware tunables
-BOARD_HARDWARE_CLASS := device/semc/urushi/cmhw
+BOARD_HARDWARE_CLASS += device/semc/urushi/cmhw
