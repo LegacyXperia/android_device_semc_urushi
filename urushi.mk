@@ -41,6 +41,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf \
     $(LOCAL_PATH)/rootdir/system/etc/wifi/TQS_S_2.6.ini:system/etc/wifi/TQS_S_2.6.ini
 
+# Backport of extra_free_kbytes
+# Note: KitKat's system server sets this; we just set it manually
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.sysctl.extra_free_kbytes=4804
+
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
