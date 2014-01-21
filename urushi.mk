@@ -45,6 +45,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DeviceSettings
 
+# Backport of extra_free_kbytes
+# Note: KitKat's system server sets this; we just set it manually
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.sysctl.extra_free_kbytes=4804
+
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
