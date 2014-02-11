@@ -39,6 +39,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_urushi
+PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
 
 # Release name
 PRODUCT_RELEASE_NAME := urushi
