@@ -18,18 +18,6 @@ $(call inherit-product, device/semc/urushi/full_urushi.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 
-# Optional CM packages
-PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    VisualizationWallpapers \
-    PhotoTable
-
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=ST18i \
