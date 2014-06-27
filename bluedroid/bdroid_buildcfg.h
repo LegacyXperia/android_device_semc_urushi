@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2012 The Android Open Source Project
- * Copyright (C) 2012-2013 The CyanogenMod Project <http://www.cyanogenmod.org>
+ * Copyright (C) 2012-2014 The CyanogenMod Project <http://www.cyanogenmod.org>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,16 +18,8 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
+#include "../../mogami-common/bluedroid/bdroid_buildcfg.h"
+
 #define BTM_DEF_LOCAL_NAME   "Xperia Ray"
-
-#define BTHC_USERIAL_READ_MEM_SIZE 1034
-
-#define A2DP_HW_SYSFS_TUNER "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq"
-#define A2DP_HW_SYSFS_TUNER_OFF "0"
-#define A2DP_HW_SYSFS_TUNER_ON "368640"
-
-#define BLE_INCLUDED TRUE
-#define BTA_GATT_INCLUDED TRUE
-#define SMP_INCLUDED TRUE
 
 #endif
