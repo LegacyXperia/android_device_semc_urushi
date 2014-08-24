@@ -37,9 +37,6 @@ lib/libcald_imageutil.so
 lib/libcald_pal.so
 lib/libcald_server.so
 lib/libcamera_clientsemc.so
-lib/libcameraextensionclient.so
-lib/libcameraextensionjni.so
-lib/libcameraextensionservice.so
 lib/libcameralight.so
 lib/libface.so
 lib/libgemini.so
