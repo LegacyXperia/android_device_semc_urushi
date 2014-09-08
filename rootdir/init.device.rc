@@ -4,7 +4,13 @@ on early-boot
 
 on boot
     # AS3676/cameralight
-    chown system camera /sys/class/leds/torch-rgb1/brightness
-    chmod 660 /sys/class/leds/torch-rgb1/brightness
-    chown system camera /sys/class/leds/torch-rgb2/brightness
-    chmod 660 /sys/class/leds/torch-rgb2/brightness
+    chown system camera /sys/class/leds/torch/brightness
+    chmod 660 /sys/class/leds/torch/brightness
+    chown system camera /sys/class/leds/torch/max_brightness
+    chmod 660 /sys/class/leds/torch/max_brightness
+    chown system camera /sys/class/leds/torch/trigger
+    chmod 660 /sys/class/leds/torch/trigger
+    chown system camera /sys/class/leds/torch/mode
+    chmod 660 /sys/class/leds/torch/mode
+    chown system camera /sys/class/leds/torch/max_current
+    chmod 660 /sys/class/leds/torch/max_current
