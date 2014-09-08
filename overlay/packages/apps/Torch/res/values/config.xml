@@ -18,7 +18,13 @@
 -->
 <resources>
     <!-- If there is no sysfs-based control mechanism, enable this -->
-    <bool name="useCameraInterface">true</bool>
+    <bool name="useCameraInterface">false</bool>
+
+    <!-- Full path to the sysfs toggle -->
+    <string name="flashDevice">/sys/class/leds/torch/brightness</string>
+
+    <!-- Lowest setting -->
+    <integer name="valueOn">247</integer>
 
     <!-- If the device does not support high brightness mode, disable this -->
     <bool name="hasHighBrightness">false</bool>
