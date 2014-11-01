@@ -59,20 +59,8 @@ usr/semc/camera/SOD08BN1.dat
 usr/semc/camera/SOD08BN1_DW9714.dat
 usr/semc/camera/SOD08BN1_IMX105.dat
 
-# Calibration
-bin/nv_param_loader
-bin/nvcustomizer
-bin/nvimport
-
-# Audio
-lib/libaudioalsa.so
-
 # Compass
 bin/akmd8975
-
-# Offline charging
-bin/chargemon
-lib/libmiscta.so
 
 # Touchscreen firmware
 bin/clearpad_fwloader
