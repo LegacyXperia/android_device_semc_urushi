@@ -26,6 +26,7 @@
         <value>368640</value>
         <value>768000</value>
         <value>1024000</value>
+        <value>1401600</value>
     </array>
     <item name="cpu.idle">3.2</item>
     <item name="cpu.awake">30</item>
@@ -35,6 +36,7 @@
         <value>73.5</value>
         <value>89.2</value>
         <value>99.0</value>
+        <value>110.0</value>
     </array>
     <item name="battery.capacity">1500</item>
 </device>
