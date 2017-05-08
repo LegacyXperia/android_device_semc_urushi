@@ -30,6 +30,3 @@ TARGET_OTA_ASSERT_DEVICE := ST18i,ST18a,urushi
 
 # CM Hardware tunables
 BOARD_HARDWARE_CLASS += device/semc/urushi/cmhw
-
-# SELinux
-BOARD_SEPOLICY_DIRS += device/semc/urushi/sepolicy
