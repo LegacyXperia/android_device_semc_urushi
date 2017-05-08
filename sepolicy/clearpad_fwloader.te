@@ -1,4 +1,0 @@
-type clearpad_fwloader, domain;
-type clearpad_fwloader_exec, exec_type, file_type;
-
-init_daemon_domain(clearpad_fwloader)
